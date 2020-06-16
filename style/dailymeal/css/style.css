@@ -1,0 +1,43 @@
+.my-q-an-list li{border-bottom: 1px solid #eee;padding: 10px 10px 10px 70px;position: relative;}
+.my-q-an-list h3{font-size: 16px;color: #666;margin-bottom: 10px;font-weight: normal;}
+.my-q-an-list .avatar{width: 50px;height: 50px;position: absolute;left: 10px; top: 10px;border-radius: 50%;	}
+.my-q-an-list .q-info{font-size: 14px;color: #999;margin-top: 10px;overflow: hidden;line-height: 30px;}
+.my-q-an-list .q-info>span:last-child{float: right;}
+.my-q-an-list .q-info>span:first-child{float: left;}
+
+.more_box {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 95px;
+    display: block;
+    background: url(../img/more.png) 0 0 no-repeat;
+    background-size: 60px;
+}
+.more_btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    box-shadow:1px 2px 5px #888;
+	-webkit-transition: -webkit-transform 0.5s	
+}
+.more_btn img{
+    width: 60px;
+    height: 60px;
+	-webkit-transition: -webkit-transform 0.5s	
+}
+.d{
+	-webkit-transform:rotate(135deg);
+}
+textarea{
+width: 100%;min-height: 120px;background: #fff;border:1px solid #d5d5d6;font-size: 16px;
+}
+.note-list li{border-bottom: 1px solid #eee;padding: 10px 20px 10px 20px;position: relative;border-left:6px solid #fff;}
+.note-list .q-info{font-size: 14px;color: #999;margin-top: 10px;overflow: hidden;line-height: 30px;}
+.note-list .q-info>span{float: right;}
+.note-list .live0{border-left: 6px solid #00DC00;}
+.note-list .live1{border-left: 6px solid orange;}
+.note-list .live2{border-left: 6px solid red;}

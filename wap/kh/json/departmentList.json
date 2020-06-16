@@ -1,0 +1,63 @@
+{
+    "code": 0,
+    "list": [{
+        "id": "0",
+        "department": "开发部",
+        "Personnel": [{
+            "mame": "姓名",
+            "avatar": "images/avatar.jpg",
+            "state": "0"
+        }, {
+            "mame": "姓名",
+            "avatar": "images/avatar.jpg",
+            "state": "1"
+        }],
+        "group": [{
+            "groupname": "开发部组01",
+            "Personnel": [{
+                "mame": "组01姓名01",
+                "avatar": "images/avatar.jpg",
+                "state": "1"
+            }, {
+                "mame": "组01姓名02",
+                "avatar": "images/avatar.jpg",
+                "state": "0"
+            }]
+        }, {
+            "groupname": "开发部组02",
+            "Personnel": [{
+                "mame": "组01姓名01",
+                "avatar": "images/avatar.jpg",
+                "state": "1"
+            }, {
+                "mame": "组01姓名02",
+                "avatar": "images/avatar.jpg",
+                "state": "0"
+            }]
+        }]
+    }, {
+        "id": "1",
+        "department": "产品部",
+        "Personnel": [{
+            "mame": "姓名",
+            "avatar": "images/avatar.jpg",
+            "state": "0"
+        }, {
+            "mame": "姓名",
+            "avatar": "images/avatar.jpg",
+            "state": "0"
+        }],
+        "group": [{
+            "groupname": "产品部组01",
+            "Personnel": [{
+                "mame": "产品部组01组01姓名01",
+                "avatar": "images/avatar.jpg",
+                "state": "0"
+            }, {
+                "mame": "组01姓名02",
+                "avatar": "images/avatar.jpg",
+                "state": "0"
+            }]
+        }]
+    }]
+}
