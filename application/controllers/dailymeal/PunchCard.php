@@ -28,7 +28,7 @@ class PunchCard extends CI_Controller
 				$user = $oauth->user();
 				$exitsUser = $this->db->where('openid', $user['id'])->get('punch_card_users')->row_array();
 				if ($exitsUser) { // 更新用户信息
-					$this->db->where()->update('punch_card_users', [
+					$this->db->where('openid', $user['id'])->update('punch_card_users', [
 						'nickname' => $user['nickname'],
 						'headimgurl' => $user['headimgurl'],
 						'updated_at' => date('Y-m-d H:i:s'),
