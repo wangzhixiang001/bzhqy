@@ -15,7 +15,7 @@
 <div class="container js_container">
     <div class="page">
     <div class="weui_msg"  style="padding-top:8%;">
-        <div class="weui_icon_area" style="margin-bottom:5%;"><img style="border-style: solid;border-width:5px;border-color: transparent;width:50%;" src="style/dailymeal/img/accomplish.jpg"></div>
+        <div class="weui_icon_area" style="margin-bottom:5%;"><img style="border-style: solid;border-width:5px;border-color: transparent;width:34%;" src="style/dailymeal/img/timg.jpeg"></div>
             <div class="weui_text_area">
                 <h2 class="weui_msg_title">打卡完成</h2>
             </div>
